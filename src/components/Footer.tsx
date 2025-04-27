@@ -10,9 +10,6 @@ export const Footer: React.FC<FooterProps> = ({ setShowPrivacyPolicy }) => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-md bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center">
-                <span className="font-bold text-lg">PS</span>
-              </div>
               <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500">
                 Prompt Stash
               </span>

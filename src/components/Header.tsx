@@ -17,9 +17,6 @@ export const Header: React.FC<HeaderProps> = ({
           role="button"
           tabIndex={0}
         >
-          <div className="h-8 w-8 rounded-md bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center">
-            <span className="font-bold text-lg">PS</span>
-          </div>
           <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-500">
             Prompt Stash
           </span>
